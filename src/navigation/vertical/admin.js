@@ -285,20 +285,6 @@ export default [
     icon: 'SettingsIcon',
     children: [
       {
-        title: 'Market List',
-        icon: 'MinusIcon',
-        route: 'markets',
-        resource: 'Market',
-        action: 'read',
-      },
-      {
-        title: 'Market Websites',
-        icon: 'MinusIcon',
-        route: 'market_websites',
-        resource: 'MarketWebsite',
-        action: 'read',
-      },
-      {
         title: 'Market Limits',
         icon: 'MinusIcon',
         route: 'market_limit_settings',

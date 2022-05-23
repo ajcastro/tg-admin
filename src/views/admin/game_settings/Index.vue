@@ -45,7 +45,7 @@
                   Limit
                 </b-th>
                 <b-th width="10%">
-                  Limit Total
+                  Game Parameter
                 </b-th>
                 <b-th width="10%" />
               </b-tr>
@@ -100,8 +100,7 @@
                 </b-td>
                 <b-td>
                   <b-form-input
-                    v-model="game.setting.limit_total"
-                    type="number"
+                    v-model="game.setting.game_parameter"
                     :disabled="!game.isEditing"
                   />
                 </b-td>

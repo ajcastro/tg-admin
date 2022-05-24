@@ -27,6 +27,9 @@
                   Game
                 </b-th>
                 <b-th width="10%">
+                  Game Parameter
+                </b-th>
+                <b-th width="10%">
                   Min Bet
                 </b-th>
                 <b-th width="10%">
@@ -44,9 +47,6 @@
                 <b-th width="10%">
                   Limit
                 </b-th>
-                <b-th width="10%">
-                  Game Parameter
-                </b-th>
                 <b-th width="10%" />
               </b-tr>
             </b-thead>
@@ -56,6 +56,12 @@
                 :key="game.id"
               >
                 <b-td> {{ game.title }}</b-td>
+                <b-td>
+                  <b-form-input
+                    v-model="game.setting.game_parameter"
+                    :disabled="!game.isEditing"
+                  />
+                </b-td>
                 <b-td>
                   <b-form-input
                     v-model="game.setting.min_bet"
@@ -95,12 +101,6 @@
                   <b-form-input
                     v-model="game.setting.limit"
                     type="number"
-                    :disabled="!game.isEditing"
-                  />
-                </b-td>
-                <b-td>
-                  <b-form-input
-                    v-model="game.setting.game_parameter"
                     :disabled="!game.isEditing"
                   />
                 </b-td>

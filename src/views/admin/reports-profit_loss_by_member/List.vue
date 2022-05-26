@@ -291,6 +291,7 @@ export default {
           },
           {
             key: 'total_win_loss',
+            label: 'Total Win/Loss',
             sortable: true,
           },
         ],

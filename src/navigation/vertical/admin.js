@@ -300,4 +300,11 @@ export default [
       },
     ],
   },
+  {
+    title: 'Profit and Loss',
+    route: 'reports_profit_loss',
+    icon: 'HomeIcon',
+    resource: 'ProfitAndLoss',
+    action: 'view',
+  },
 ]

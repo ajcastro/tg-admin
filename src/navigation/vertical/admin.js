@@ -304,13 +304,13 @@ export default [
     title: 'Reports',
     icon: 'TrendingUpIcon',
     children: [
-      {
-        title: 'P/L',
-        icon: 'MinusIcon',
-        route: 'market_limit_settings',
-        resource: 'MarketLimitSetting',
-        action: 'read',
-      },
+      // {
+      //   title: 'P/L',
+      //   icon: 'MinusIcon',
+      //   route: 'market_limit_settings',
+      //   resource: 'MarketLimitSetting',
+      //   action: 'read',
+      // },
       {
         title: 'P/L by Member',
         icon: 'MinusIcon',

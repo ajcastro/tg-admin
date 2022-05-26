@@ -401,4 +401,13 @@ export default [
       action: 'read',
     },
   },
+  {
+    path: '/reports/profit_loss_by_member',
+    name: 'reports.profit_loss_by_member',
+    component: () => import('@/views/admin/reports-profit_loss_by_member/List.vue'),
+    meta: {
+      resource: 'ProfitLossByMember',
+      action: 'read',
+    },
+  },
 ]

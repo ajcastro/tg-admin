@@ -300,4 +300,24 @@ export default [
       },
     ],
   },
+  {
+    title: 'Reports',
+    icon: 'TrendingUpIcon',
+    children: [
+      {
+        title: 'P/L',
+        icon: 'MinusIcon',
+        route: 'market_limit_settings',
+        resource: 'MarketLimitSetting',
+        action: 'read',
+      },
+      {
+        title: 'P/L by Member',
+        icon: 'MinusIcon',
+        route: 'reports.profit_loss_by_member',
+        resource: 'ProfitLossByMember',
+        action: 'read',
+      },
+    ],
+  },
 ]

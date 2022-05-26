@@ -217,16 +217,13 @@ export default {
             formatter: value => (value ? dayjs(value).format('DD MMM YYYY hh:mm a') : ''),
           },
           {
-            key: 'datetime',
-            sortable: true,
-          },
-          {
             key: 'deposit_count',
             sortable: true,
           },
           {
             key: 'deposit_amount',
             sortable: true,
+            formatter: value => this.$options.filters.currency(value),
           },
           {
             key: 'withdraw_count',
@@ -235,6 +232,7 @@ export default {
           {
             key: 'withdraw_amount',
             sortable: true,
+            formatter: value => this.$options.filters.currency(value),
           },
           {
             key: 'adjustment_count',
@@ -243,6 +241,7 @@ export default {
           {
             key: 'adjustment_amount',
             sortable: true,
+            formatter: value => this.$options.filters.currency(value),
           },
           {
             key: 'bet_count',
@@ -251,15 +250,18 @@ export default {
           {
             key: 'bet_amount',
             sortable: true,
+            formatter: value => this.$options.filters.currency(value),
           },
           {
             key: 'vba',
             sortable: true,
+            formatter: value => this.$options.filters.currency(value),
           },
           {
             key: 'win_loss',
             label: 'Win/Loss',
             sortable: true,
+            formatter: value => this.$options.filters.currency(value),
           },
           {
             key: 'bonus_count',
@@ -268,31 +270,38 @@ export default {
           {
             key: 'bonus_amount',
             sortable: true,
+            formatter: value => this.$options.filters.currency(value),
           },
           {
             key: 'share_upline',
             sortable: true,
+            formatter: value => this.$options.filters.currency(value),
           },
           {
             key: 'share_downline',
             sortable: true,
+            formatter: value => this.$options.filters.currency(value),
           },
           {
             key: 'referral',
             sortable: true,
+            formatter: value => this.$options.filters.currency(value),
           },
           {
             key: 'commission',
             sortable: true,
+            formatter: value => this.$options.filters.currency(value),
           },
           {
             key: 'progressive',
             sortable: true,
+            formatter: value => this.$options.filters.currency(value),
           },
           {
             key: 'total_win_loss',
             label: 'Total Win/Loss',
             sortable: true,
+            formatter: value => this.$options.filters.currency(value),
           },
         ],
       }),

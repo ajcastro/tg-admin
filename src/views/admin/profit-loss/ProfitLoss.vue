@@ -13,7 +13,7 @@
     <b-row cols="6">
       <b-col
         cols="6"
-        md="6"
+        md="3"
       >
         <label for="dateFrom">Date From</label>
         <b-form-datepicker
@@ -24,7 +24,7 @@
       </b-col>
       <b-col
         cols="6"
-        md="6"
+        md="3"
       >
         <label for="dateTo">Date To</label>
         <b-form-datepicker
@@ -71,7 +71,6 @@
 
 <script>
 import { BRow, BCol, BFormDatepicker } from 'bootstrap-vue'
-import vSelect from 'vue-select'
 import ProfitLossChart from '@/views/admin/profit-loss/components/ProfitLossChart.vue'
 import BranchChart from '@/views/admin/profit-loss/components/BranchChart.vue'
 import ProviderChart from '@/views/admin/profit-loss/components/ProviderChart.vue'
@@ -82,7 +81,6 @@ export default {
   components: {
     BRow,
     BCol,
-    vSelect,
     BFormDatepicker,
     ProfitLossChart,
     BranchChart,

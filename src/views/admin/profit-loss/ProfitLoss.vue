@@ -48,7 +48,7 @@
         cols="6"
         lg="6"
         xl="6"
-        class="mt-3"
+        class=""
       >
         <b-row>
           <b-col

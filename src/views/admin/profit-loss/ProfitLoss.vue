@@ -39,15 +39,15 @@
       class="my-2"
     >
       <b-col
-        cols="6"
-        xl="6"
+        cols="12"
+        xl="12"
       >
         <profit-loss-chart />
       </b-col>
       <b-col
-        cols="6"
-        lg="6"
-        xl="6"
+        cols="12"
+        lg="12"
+        xl="12"
         class=""
       >
         <b-row>

@@ -308,7 +308,7 @@ export default [
         title: 'P/L',
         route: 'reports.profit_loss',
         icon: 'MinusIcon',
-        resource: 'ProfitAndLoss',
+        resource: 'ProfitLoss',
         action: 'read',
       },
       {

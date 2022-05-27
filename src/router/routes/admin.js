@@ -406,8 +406,8 @@ export default [
     name: 'reports.profit_loss',
     component: () => import('@/views/admin/profit-loss/ProfitLoss.vue'),
     meta: {
-      resource: 'ProfitAndLoss',
-      action: 'view',
+      resource: 'ProfitLoss',
+      action: 'read',
     },
   },
   {

@@ -45,16 +45,16 @@ export default {
   data() {
     return {
       items: [...Array(5)].map(() => ({
-        bet: 10000,
-        vba: 10000,
-        win_loss: 100000,
-        uplink: 100000,
-        downlink: 100000,
-        bonus: 100000,
-        referral: 100000,
-        commission: 100000,
-        progressive: 100000,
-        total_win_loss: 100000,
+        bet: '10,000.00',
+        vba: '10,000.00',
+        win_loss: '100,000.00',
+        uplink: '100,000.00',
+        downlink: '100,000.00',
+        bonus: '100,000.00',
+        referral: '100,000.00',
+        commission: '100,000.00',
+        progressive: '100,000.00',
+        total_win_loss: '100,000.00',
       })),
     }
   },

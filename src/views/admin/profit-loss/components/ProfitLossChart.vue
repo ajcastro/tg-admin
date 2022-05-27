@@ -3,7 +3,7 @@
     <b-row>
       <b-col md="4">
         <div id="chart-spark1">
-          <h1>$ 424,652</h1>
+          <h1>424,652</h1>
           Active Members
         </div>
       </b-col>

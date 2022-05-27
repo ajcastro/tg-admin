@@ -301,10 +301,23 @@ export default [
     ],
   },
   {
-    title: 'Profit and Loss',
-    route: 'reports_profit_loss',
-    icon: 'HomeIcon',
-    resource: 'ProfitAndLoss',
-    action: 'view',
+    title: 'Reports',
+    icon: 'TrendingUpIcon',
+    children: [
+      {
+        title: 'P/L',
+        route: 'reports.profit_loss',
+        icon: 'MinusIcon',
+        resource: 'ProfitAndLoss',
+        action: 'read',
+      },
+      {
+        title: 'P/L by Member',
+        icon: 'MinusIcon',
+        route: 'reports.profit_loss_by_member',
+        resource: 'ProfitLossByMember',
+        action: 'read',
+      },
+    ],
   },
 ]

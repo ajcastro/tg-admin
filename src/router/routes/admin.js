@@ -403,11 +403,20 @@ export default [
   },
   {
     path: '/reports/pl',
-    name: 'reports_profit_loss',
+    name: 'reports.profit_loss',
     component: () => import('@/views/admin/profit-loss/ProfitLoss.vue'),
     meta: {
       resource: 'ProfitAndLoss',
       action: 'view',
+    },
+  },
+  {
+    path: '/reports/profit_loss_by_member',
+    name: 'reports.profit_loss_by_member',
+    component: () => import('@/views/admin/reports-profit_loss_by_member/List.vue'),
+    meta: {
+      resource: 'ProfitLossByMember',
+      action: 'read',
     },
   },
 ]

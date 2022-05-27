@@ -36,10 +36,16 @@
     <div class="row my-2 mx-1">
       <table class="w-100">
         <thead>
-          <th>Total Value</th>
-          <th>Percentage of Portfolio</th>
-          <th>Last 10 days</th>
-          <th>Volume</th>
+          <th>Bet</th>
+          <th>VBA</th>
+          <th>Win/Loss</th>
+          <th>Uplink</th>
+          <th>Downlink</th>
+          <th>Bonus</th>
+          <th>Referral</th>
+          <th>Commission</th>
+          <th>Progressive</th>
+          <th>Total W/L</th>
         </thead>
         <tbody>
           <tr>

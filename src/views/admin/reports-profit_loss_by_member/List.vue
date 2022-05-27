@@ -193,8 +193,6 @@ export default {
       resourceId: null,
       model: ProfitLossByMember,
       ...makeTable({
-        sortBy: 'datetime',
-        sortDesc: true,
         filter: {
           search: '',
           date_range: '',
@@ -210,11 +208,6 @@ export default {
             key: 'member',
             sortable: true,
             formatter: (value, key, item) => item.member.username,
-          },
-          {
-            key: 'datetime',
-            sortable: true,
-            formatter: value => (value ? dayjs(value).format('DD MMM YYYY hh:mm a') : ''),
           },
           {
             key: 'deposit_count',

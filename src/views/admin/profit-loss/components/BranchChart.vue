@@ -5,7 +5,7 @@
     </h6>
     <apex-chart
       type="bar"
-      height="380"
+      height="180"
       :options="chartOptions"
       :series="series"
     />

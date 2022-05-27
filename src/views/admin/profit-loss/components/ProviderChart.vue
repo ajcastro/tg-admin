@@ -5,7 +5,7 @@
     </h6>
     <apex-chart
       type="pie"
-      width="380"
+      width="280"
       :options="chartOptions"
       :series="series"
       class="d-flex flex-row justify-content-center mt-2 h-100"

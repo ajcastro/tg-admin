@@ -2,7 +2,7 @@
   <div class="w-100">
     <b-row>
       <b-col
-        cols="12"
+        cols="6"
         md="6"
       >
         <h1>P/L</h1>
@@ -10,9 +10,9 @@
         <div />
       </b-col>
     </b-row>
-    <b-row cols="12">
+    <b-row cols="6">
       <b-col
-        cols="12"
+        cols="6"
         md="6"
       >
         <label for="dateFrom">Date From</label>
@@ -23,7 +23,7 @@
         />
       </b-col>
       <b-col
-        cols="12"
+        cols="6"
         md="6"
       >
         <label for="dateTo">Date To</label>
@@ -35,31 +35,31 @@
       </b-col>
     </b-row>
     <b-row
-      cols="12"
+      cols="6"
       class="my-2"
     >
       <b-col
-        cols="12"
-        xl="12"
+        cols="6"
+        xl="6"
       >
         <profit-loss-chart />
       </b-col>
       <b-col
-        cols="12"
-        lg="12"
-        xl="12"
+        cols="6"
+        lg="6"
+        xl="6"
         class="mt-3"
       >
         <b-row>
           <b-col
             cols="12"
-            lg="6"
+            lg="12"
           >
             <branch-chart />
           </b-col>
           <b-col
             cols="12"
-            lg="6"
+            lg="12"
           >
             <provider-chart />
           </b-col>

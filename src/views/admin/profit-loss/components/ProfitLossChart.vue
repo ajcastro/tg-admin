@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-row>
+        <!-- <b-row> //TODO: commented out for the meantime
           <b-col md="4">
             <div id="chart-spark1">
                 <apex-chart type="area" height="160" :options="chartOptions" :series="series" />
@@ -16,7 +16,7 @@
                 <apex-chart type="area" height="160" :options="chartOptionsSpark3" :series="seriesSpark3" />
             </div>
           </b-col>
-        </b-row>
+        </b-row> -->
 
         <div class="row my-2 mx-1">
           <table class="w-100">
